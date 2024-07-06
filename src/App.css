@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.slick-dots li button:before {
+  font-size: 16px!important; 
+  /* color: #000000!important; */
+}
+
+
+.slick-dots li.slick-active button:before {
+  color: #F30000!important; 
+}
+
+.slick-dots li {
+  margin: 0 8px; 
+  
+}
+
+.slick-dots {
+  bottom: 10px; 
+  margin: 10px 0px;
+}
+.slick-prev:before {
+  display: none!important;
+}
+.slick-next:before {
+  display: none!important;
+}
